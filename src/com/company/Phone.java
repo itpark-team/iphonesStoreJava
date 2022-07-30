@@ -19,4 +19,16 @@ public class Phone {
                 ", quantity=" + quantity +
                 '}';
     }
+
+    public String getModel() {
+        return model;
+    }
+
+    public int getPrice() {
+        return price;
+    }
+
+    public int getQuantity() {
+        return quantity;
+    }
 }
